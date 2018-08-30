@@ -1,4 +1,4 @@
-
+// create connection to mysql
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({

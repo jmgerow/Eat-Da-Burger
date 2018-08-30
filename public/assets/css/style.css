@@ -1,27 +1,53 @@
 body {
-  background-color: rgb(223, 223, 223);
+  background-image: url("../img/burger.jpg");
+  background-size: 100%;
 }
 
 h1 {
-  color: blue;
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #f5b25a;
 }
 
-.label {
-  font-weight: bold;
-}
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
 
 .form-group {
   margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.burger-display {
+  background-color: rgb(141, 141, 141);
+  opacity: 0.85;
+  font-weight: bold;
+}
+
+.insert-burger {
+  background-color: rgb(141, 141, 141);
+  opacity: 0.85;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.change-devoured {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border-color: black;
 }

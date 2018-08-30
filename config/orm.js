@@ -1,5 +1,5 @@
 var connection = require("../config/connection.js");
-
+//helper function to print question marks properly in the POST
 function printQuestionMarks(num) {
     var arr = [];
 
