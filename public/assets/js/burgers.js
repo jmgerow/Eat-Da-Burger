@@ -3,7 +3,7 @@ $(function() {
   $(".change-devoured").on("click", function(event) {
     var id = $(this).data("id");
     //need to add $(this).data("newdevour"); back once working
-    var newDevour = false;
+    var newDevour = $(this).data("newdevour");
     console.log('newDevour', newDevour)
 
     var newEatenState = {
