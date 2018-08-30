@@ -44,10 +44,17 @@ li {
   color: white;
   background-color: black;
   border-color: black;
+  padding: 3px;
 }
 
 .button {
   color: white;
   background-color: black;
   border-color: black;
+  padding:3px;
+}
+
+#new-burger{
+  font-size: 20px;
+  font-weight: bold;
 }
