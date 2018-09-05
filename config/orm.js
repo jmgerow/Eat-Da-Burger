@@ -40,15 +40,9 @@ var orm = {
     },
 
     insertOne: function (table, cols, vals, cb) {
-        var queryString = "INSERT INTO " + table;
 
-        queryString += " (";
-        queryString += cols.toString();
-        queryString += ") ";
-        queryString += "VALUES (";
-        queryString += printQuestionMarks(vals.length);
-        queryString += ") ";
-
+        var queryString = `INSERT INTO ${table} (${cols}) VALUES (${printQuestionMarks(vals.length)})`;
+        
         console.log(queryString);
 
         connection.query(queryString, vals, function (err, result) {
