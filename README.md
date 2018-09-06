@@ -1,6 +1,6 @@
 # Welcome to the Burger App!
 
-![image](/public/assets/img/burger.jpg)
+![image](/public/assets/img/burger.jpg | width=100)
 
 ## This application allows you to create, devour, and re-make unique burgers.
 
